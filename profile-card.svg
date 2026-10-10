@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="450" viewBox="0 0 860 450">
+<defs>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#7c3aed"/><stop offset="0.5" stop-color="#22d3ee"/><stop offset="1" stop-color="#10b981"/>
+  </linearGradient>
+  <linearGradient id="scan" x1="0" x2="1">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset="0.5" stop-color="#22d3ee" stop-opacity=".55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="win"><rect x="10" y="10" width="840" height="430" rx="12"/></clipPath>
+</defs>
+<style>
+  text{font-family:'JetBrains Mono','Fira Code',Consolas,monospace}
+  .k{fill:#22d3ee} .d{fill:#3b4a5e} .v{fill:#e2e8f0} .h{fill:#10b981}
+  .lbl{fill:#22d3ee;font-size:9px;letter-spacing:2px;opacity:.7}
+  .ascii{fill:#60a5fa;font-size:7.4px;white-space:pre}
+  .row{opacity:0;animation:in .4s ease forwards}
+  @keyframes in{to{opacity:1}}
+  .blink{animation:bl 1s steps(1) infinite} @keyframes bl{50%{opacity:0}}
+  .pulse{animation:pu 1.6s ease-in-out infinite} @keyframes pu{50%{opacity:.25}}
+</style>
+<rect x="10" y="10" width="840" height="430" rx="12" fill="#0b1220" stroke="url(#border)" stroke-width="1.6"/>
+<g clip-path="url(#win)">
+  <circle cx="30" cy="30" r="5" fill="#ef4444"/><circle cx="46" cy="30" r="5" fill="#f59e0b"/><circle cx="62" cy="30" r="5" fill="#10b981"/>
+  <text x="430.0" y="34" text-anchor="middle" font-size="10" fill="#64748b">saiteja@devops ~ % ./profile.sh --live</text>
+  <circle class="pulse" cx="778" cy="30" r="3.5" fill="#ef4444"/>
+  <text x="786" y="34" font-size="9" fill="#ef4444" letter-spacing="1">SCANNING</text>
+
+  <rect x="24" y="52" width="370" height="372" rx="8" fill="#0d1628" stroke="#1e3a5f"/>
+  <text x="34" y="66" class="lbl">VISUAL.MAP</text>
+  <text class="ascii" x="38" y="82">
+<tspan x="38" dy="0" xml:space="preserve">##+-====--::::.........:::-=-::::::::::::::::::::::::---=------:</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">%%*-=++++==--:..:--===++++++*+==++++++++++****#*+==++==--------:</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">%%*-+***++++==-:::-------------==--------+%%%###=:--::::::::::..</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">%%*-*##*++++++===--::------------==-------------:::::.::..::..  </tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">%%*=*###*+++*##+=++=======++===+++*+==+++++++++=========------==</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">%%*=*###*****%%#+**+++++++=-:::--==++++++++++++++=:--------+%%%@</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">%%*=*%%#*****%%#*##*++*+-....:::::::-+***+++++++++-=+==========+</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">%%*=#%%%****#%%#*#%***+.... :..:::...:********+++++++++++++====+</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">%@#+#%%%#**##%%#*#%***:   .          .=*********+*+++++++==++==+</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">#%*+*#%%####%@@#*%%#*+   ....::----:  -*************=-+++**+++=+</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">#*++*%%%####%@@%*%%##=  .+**####%%%#-.:=***********+:.=++##+++++</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">*#*++*######%@@%*%%##=  :###%%%%%%%%=  -#***********+++*++++++++</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">*#*===##*###%@@%*%%%@%  =*++*###*+*#*  -##*********####*+++++++*</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">*%+-==+*###**#@%*%%%%%-.*-:..-*=..:-*= +##*=-=-==***********+++*</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">#**+#*++**++=#@%*%%#*#=:#*===+%*+=+*#+-###*-...:=************+++</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">**==+=+++++#*#%*+#*+*#*=######%%##%%%*+###*=:.::=*#***********+*</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">=-----===--+--*++++*###+**##*+****###*#%##*==-:.-*###***+==-=++*</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">-==--:-==-:::-**=+**###*+*+++--=+==**+#%%%*-=+-.-*###*==-:..::-=</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">-*+--:==::--::=*=++***##=+=:-=+++-=*=+%%%%#=---.-*##*=:::::::.:=</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">:--::-:..::--::----+###%*--+*+=+#*=--=#%%%#=-:::-*##*-::..:..--+</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">----::::::::-:.:-:-=+*#%=:.:+****-.:*=+%%%#-::::=###*+-:....:--=</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">::--::-:--:.::---::--+*=.==...::..-+%-:+#%#*++++*#####+=-:..--==</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">-::..--:----:-==-:::-=-.-=+=-----=+##:.--+*#%%%%%%%####*=-----==</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">:::..::..:---:+=-:-=--:.=+-+++=+++*@=:::::-=+*#%%%#**+==+++++==+</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">-::::::::..:::----=-::..-#-=+++++*@#::.:::::--=+*#=:....--::-===</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">-::.:::-:..::----:::.:..:+#+****#%*-...:::::::---==:... :.   .::</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">--:::---::::---::::::::..:*%####@*:..::::::::::::--=:..:--:.....</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">---::::::::--::::.:::::...+%%%#%+...:::::::::::::::---..-==----:</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">+=-:.:::::--::::::::::....:%@@@*..::::::::::::::::::--. .:--=---</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">#*-:.--:::-:::::::::::::...=@@%:.::::::::::::::::::::--:---==-::</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">+=-::==-:::::::::::::::::..:%@+.:::::::::::::::::::::--+*####*=:</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">::-==---:.:...::::::::::::..#%:::::::::::::::::::.::::--*#%#%%*=</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">:==++--:.::....:::::::::::..+=.::::::::::::::::...:.:::-*%%%%%##</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">-++==---:::....::::::::::::.=:.:::::::::::::::......:::-=%%%%%%%</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">*#*+=----::... :::::::::::::-:.::::::::::::::.. .....::--=======</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">##*+=-----.... .::::::::::.....::::::::::::...  ......::-:.    .</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">-=++=--==:....  :::::::::.....::.::::::::::...  ......:::-:.   .</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">-++=-:---:...   .::.......::::....::::::::....   .....:::-===- .</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">===---==-:...    :........::..........:::.....  ......::::=++=..</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">---=====-....    .:...........................   .....::::-==- .</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">----====:....    .:.......::..................   .....::::-+*=..</tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">----====:....    ::......:::...........::.....   ......:::-=+=. </tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">=----==-.....    -......::::.....:.....:::....  : ....:::::-::  </tspan>
+<tspan x="38" dy="7.6" xml:space="preserve">==---==-......   ......:::::.::..:::....:::... .=.......::---: .</tspan>
+</text>
+<rect x="408" y="52" width="428" height="372" rx="8" fill="#0d1628" stroke="#1e3a5f"/>
+<text x="420" y="66" class="lbl">SYSTEM.INFO</text>
+<text x="420" y="84" font-size="13" fill="#a78bfa" font-weight="700">saiteja@devops<tspan fill="#3b4a5e" font-weight="400"> ──────────────────────</tspan></text>
+<text class="row" style="animation-delay:0.20s" x="420" y="104" font-size="11" xml:space="preserve"><tspan class="d">. </tspan><tspan class="k">Subject</tspan><tspan class="d">: ..................... </tspan><tspan class="v">Sai Teja Kumbham</tspan></text>
+<text class="row" style="animation-delay:0.32s" x="420" y="120" font-size="11" xml:space="preserve"><tspan class="d">. </tspan><tspan class="k">Cert</tspan><tspan class="d">: ..... </tspan><tspan class="v">AWS Certified Developer – Associate</tspan></text>
+<text class="row" style="animation-delay:0.44s" x="420" y="136" font-size="11" xml:space="preserve"><tspan class="d">. </tspan><tspan class="k">Role</tspan><tspan class="d">: ......... </tspan><tspan class="v">DevOps • SRE • Platform • Cloud</tspan></text>
+<text class="row" style="animation-delay:0.56s" x="420" y="152" font-size="11" xml:space="preserve"><tspan class="d">. </tspan><tspan class="k">Status</tspan><tspan class="d">: ........ </tspan><tspan class="v">Building • Learning • Shipping</tspan></text>
+<text class="row" style="animation-delay:0.68s" x="420" y="168" font-size="11" xml:space="preserve"><tspan class="d">. </tspan><tspan class="k">ToolChain</tspan><tspan class="d">: ...... </tspan><tspan class="v">VS Code, Git, Docker, Postman</tspan></text>
+<text class="row" style="animation-delay:0.80s" x="420" y="192" font-size="11" xml:space="preserve"><tspan class="d">. </tspan><tspan class="k">Core.Cloud</tspan><tspan class="d">: ........ </tspan><tspan class="v">AWS (EC2, S3, Lambda, IAM)</tspan></text>
+<text class="row" style="animation-delay:0.92s" x="420" y="208" font-size="11" xml:space="preserve"><tspan class="d">. </tspan><tspan class="k">Core.CI/CD</tspan><tspan class="d">: ........... </tspan><tspan class="v">GitHub Actions, Jenkins</tspan></text>
+<text class="row" style="animation-delay:1.04s" x="420" y="224" font-size="11" xml:space="preserve"><tspan class="d">. </tspan><tspan class="k">Core.Infra</tspan><tspan class="d">: ..... </tspan><tspan class="v">Docker, Kubernetes, Terraform</tspan></text>
+<text class="row" style="animation-delay:1.16s" x="420" y="240" font-size="11" xml:space="preserve"><tspan class="d">. </tspan><tspan class="k">Core.Lang</tspan><tspan class="d">: ............ </tspan><tspan class="v">Python, Bash, YAML, SQL</tspan></text>
+<text class="row" style="animation-delay:1.28s" x="420" y="256" font-size="11" xml:space="preserve"><tspan class="d">. </tspan><tspan class="k">Core.AI</tspan><tspan class="d">: ......... </tspan><tspan class="v">MCP (Model Context Protocol)</tspan></text>
+<text class="row h" style="animation-delay:1.40s" x="420" y="280" font-size="11">─ Contact <tspan class="d">──────────────────────────────</tspan></text>
+<text class="row" style="animation-delay:1.52s" x="420" y="297" font-size="11" xml:space="preserve"><tspan class="d">. </tspan><tspan class="k">Grid.Portfolio</tspan><tspan class="d">: ......... </tspan><tspan class="v">kumbham8888.github.io</tspan></text>
+<text class="row" style="animation-delay:1.64s" x="420" y="313" font-size="11" xml:space="preserve"><tspan class="d">. </tspan><tspan class="k">Grid.LinkedIn</tspan><tspan class="d">: ................ </tspan><tspan class="v">in/saitejagoudk</tspan></text>
+<text class="row" style="animation-delay:1.76s" x="420" y="329" font-size="11" xml:space="preserve"><tspan class="d">. </tspan><tspan class="k">Grid.Github</tspan><tspan class="d">: ...................... </tspan><tspan class="v">KUMBHAM8888</tspan></text>
+<text class="row" style="animation-delay:1.88s" x="420" y="357" font-size="11"><tspan class="blink" fill="#22d3ee">█</tspan><tspan class="v"> See live GitHub stats below in README ↓</tspan></text>
+<rect x="10" y="0" width="840" height="2" fill="url(#scan)">
+    <animate attributeName="y" values="50;425;50" dur="6s" repeatCount="indefinite"/></rect>
+</g>
+</svg>
